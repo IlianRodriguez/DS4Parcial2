@@ -1,0 +1,103 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #c3bbff;
+
+}
+
+.header {
+    color: #ffffff;
+    margin: 0 auto;
+    background-color: #0e0a45;
+    height: 50px; /* Asegura que el header tenga la misma altura que el navbar */
+    display: flex; /* Usar flexbox para centrar el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+}
+
+.navbar {
+    width: 100%;
+    max-width: 960px;
+    background-color: #35343a; /* Color de fondo del navbar */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center;
+    padding: 0; /* Elimina el padding para evitar desbordamiento */
+    height: 50px; /* Altura del navbar */
+    position: relative; /* Necesario para la animación */
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    height: 100%; /* Asegura que la lista ocupe toda la altura del navbar */
+}
+
+.navbar li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.navbar a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 15px; /* Ajusta el padding vertical para hacerlo más compacto */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para el fondo y color */
+    position: relative; /* Necesario para la animación */
+    z-index: 1; /* Asegura que el enlace esté por encima de la línea de animación */
+}
+
+.navbar a:hover {
+    background-color: #381bb8; /* Color de fondo al pasar el mouse */
+    border-radius: 5px; /* Bordes redondeados */
+    color: white; /* Color del texto al pasar el mouse */
+}
+
+
+.contenedor{
+    padding: 0;
+    margin: 50px auto 0;
+    width: 100%;
+    max-width: 960px;
+}
+
+/*esto trababaja el contenido de la pagina*/
+.contenido{
+    margin: 0;
+    padding: 10px;
+    /*float: left;
+    width: 100%;*/
+    max-width: 960px;
+    background-color: #fff;
+    border: 1px solid ;
+}
+
+.centrar{
+    text-align: center;
+}
+
+.justificar{
+    text-align: justify;
+}
+
+.ftPresentacion {
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+}
+
+.footer{
+    background-color: #0e0a45;
+    color: white;
+    text-align: center;
+    padding: 1px 0;
+    width: 100%;
+    margin: 0;
+}
